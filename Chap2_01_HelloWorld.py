@@ -5,7 +5,10 @@ import os
 from openai import AzureOpenAI
 
 
-
+# must have below env setting:
+# AZURE_OPENAI_API_KEY
+# OPENAI_API_VERSION
+# AZURE_OPENAI_ENDPOINT
 client = AzureOpenAI()
 
 # Make sure the environment variable OPENAI_API_KEY is set.
